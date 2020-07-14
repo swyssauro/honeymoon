@@ -1,0 +1,37 @@
+/* Navlink normalizado colors */
+.navbar { padding: 0.5rem 10rem; }
+.navbar-light .navbar-brand { color: #4ab8f7; transition: 700ms; font-size: 25px; font-weight: bold; font-family: 'Gloria Hallelujah', cursive !important; }
+.navbar-light .navbar-nav .nav-link { color: #3d4883; transition: 700ms; font-size: 15px; letter-spacing: 1px; }
+
+/* Navlink :hover colors */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #eaebec; transition: 700ms; }
+
+/* svgs width */
+.svg-castelo { width: 20%; margin: 0 39%; position: relative; top: -20px; z-index: -1; }
+.svg-abelinhas { position: absolute; display: block; z-index: -1; width: fit-content; top: 0px; }
+.svg-waves{ width: -webkit-fill-available; }
+
+.button-entrar {
+    margin: 0px 46%;
+    background: #80dbff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #80dbff;
+    padding: 10px 35px;
+    transition: 500ms;
+}
+
+.container-fafafa {
+    background: #fafafa;
+    height: auto;
+}
+
+.description {
+    font-size: 17px;
+    color: #3d48837d;
+}
+
+.button-entrar:hover {
+    padding: 14px 35px;
+    border-radius: 50px;
+    transition: 500ms;
+}
