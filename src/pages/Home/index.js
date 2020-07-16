@@ -27,7 +27,6 @@ function Home() {
                 <br/> <br/>
                 <CardExampleGroupProps />
                 <br/><br/>
-                <div class="cursor"></div>
             </div>
         </>
     );
