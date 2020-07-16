@@ -1,5 +1,5 @@
 /* Navlink normalizado colors */
-.navbar { padding: 0.5rem 10rem; }
+.navbar { padding: 0.5rem 10rem; box-shadow: none; }
 .navbar-light .navbar-brand { color: #4ab8f7; transition: 700ms; font-size: 25px; font-weight: bold; font-family: 'Gloria Hallelujah', cursive !important; }
 .navbar-light .navbar-nav .nav-link { color: #3d4883; transition: 700ms; font-size: 15px; letter-spacing: 1px; }
 

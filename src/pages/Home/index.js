@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import CardExampleGroupProps from '../../components/NiveisCards';
 import './styles.css';
 
@@ -28,6 +29,7 @@ function Home() {
                 <CardExampleGroupProps />
                 <br/><br/>
             </div>
+            <Footer />
         </>
     );
 }
