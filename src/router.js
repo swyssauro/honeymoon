@@ -10,7 +10,7 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/honeypoints" component={Honeypoints} />
+                <Route path="/honeypoints" component={Honeypoints} />
             </Switch>
         </BrowserRouter>
     );
