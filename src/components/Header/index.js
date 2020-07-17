@@ -12,7 +12,7 @@ function Header() {
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="/">home</Nav.Link>
-        <Nav.Link href="honeypoints"><b>honey</b>points</Nav.Link>
+        <Nav.Link href="/honeypoints"><b>honey</b>points</Nav.Link>
       </Nav>
       <Nav>
         <Nav.Link target="_blank" href="https://github.com/swyssauro"><FiLink2 size={16} color="#00b7ff"/> my'<b>github</b> </Nav.Link>
