@@ -13,13 +13,11 @@ export default function Header() {
 
   useEffect(() => {
     api.get(`points/balance?user_id=${discordID}&server_id=651215889265590302`, {
-    }).then(response => {
-        setIncidents(response.data.points);
-    })
-});
+    }).then(response => { setIncidents(response.data.points); })
+  });
 
-    return (
-        <Navbar collapseOnSelect expand="lg">
+  return (
+    <Navbar collapseOnSelect expand="lg">
       <Navbar.Brand href="/">Honeymoon</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -35,5 +33,5 @@ export default function Header() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    );
-  }
+  );
+}
