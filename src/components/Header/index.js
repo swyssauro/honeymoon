@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import api from '../../components/API';
+import api from '../../components/API/index.js';
 
 import { Navbar, Nav } from 'react-bootstrap';
 import { FiLink2, FiUser, FiCompass } from 'react-icons/fi';
