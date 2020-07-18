@@ -1,18 +1,6 @@
-footer.page-footer {
-    bottom: 0;
-    color: #3d4883;
-    font-size: 17px;
-    margin-top: 0px !important;
-    background: #fafafa !important;
-    font-weight: 100;
-}
+footer.page-footer { bottom: 0;color: #3d4883;font-size: 17px;margin-top: 0px !important;background: #fafafa !important;font-weight: 100; }
 .navbar-brand { color: #4ab8f7; transition: 700ms; font-size: 30px !important; font-weight: bold; font-family: 'Gloria Hallelujah', cursive !important; }
-footer.page-footer a {
-    color: #3d4883;
-    font-size: 19px;
-}
-footer.page-footer .footer-copyright {
-    overflow: hidden;
-    color: #adb1c8;
-    background-color: #fafafa;
-}
+footer.page-footer a { color: #3d4883; font-size: 19px; }
+footer.page-footer .footer-copyright { overflow: hidden;color: #adb1c8;background-color: #fafafa; }
+.footer-pand { padding: 0.5rem 10rem; }
+.footer-description { font-size: 19px; line-height: 20px; opacity: 0.6; margin: 11px; }

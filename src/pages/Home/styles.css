@@ -1,6 +1,11 @@
-.text-desc {
-    font-size: 19px;
-    line-height: 19px;
-    opacity: 0.6;
-    margin: 0 25%;
-}
+
+/* svgs width */
+.svg-abelinhas { position: absolute;display: block;z-index: -1;width: 40% !important;top: 0px;left: 29%; }
+.svg-waves{ width: -webkit-fill-available; }
+
+/* customs */
+.text-desc { font-size: 19px;line-height: 19px;opacity: 0.6;margin: 0; }
+.button-entrar { margin: 0px 46%;background: #80dbff;border-radius: 10px;box-shadow: 0 0 20px #80dbff;padding: 10px 35px;transition: 500ms; }
+.container-fafafa { background: #fafafa; height: auto; }
+.description { font-size: 17px; color: #3d48837d; }
+.button-entrar:hover { padding: 14px 35px; border-radius: 50px; transition: 500ms; }
