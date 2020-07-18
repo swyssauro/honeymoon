@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import API from '../../components/API';
+import api from '../../components/API';
 
 import { Navbar, Nav } from 'react-bootstrap';
 import { FiLink2, FiUser, FiCompass } from 'react-icons/fi';
@@ -12,7 +12,7 @@ export default function Header() {
   const [incidents, setIncidents] = useState([]);
 
   useEffect(() => {
-    API.get(`points/balance?user_id=${discordID}&server_id=651215889265590302`, {
+    api.get(`points/balance?user_id=${discordID}&server_id=651215889265590302`, {
     }).then(response => {
         setIncidents(response.data.points);
     })
