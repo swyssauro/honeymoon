@@ -9,12 +9,14 @@ import waves from '../../Img/weves.svg'
 import { FiKey } from 'react-icons/fi';
 
 function Home() {
+
+    const discordName = localStorage.getItem('discordName');
+
     return (
         <>
             <Header />
-
             <div className="container">
-                <h1 className="welcome-text text-center">bem-vindos a <br /> <b>Honeymoon</b></h1>
+                <h1 className="welcome-text text-center">bem-vindos a <br /> <b>Honeymoon</b> {discordName}</h1>
                 <br />
                 <a className="button-entrar" href="/"><FiKey size='15' /></a>
                 <img className="svg-abelinhas" src={abelinhas} alt="abelinhas" />
