@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../components/API/index.js';
-
 import { Navbar, Nav } from 'react-bootstrap';
+import ButtonD from '../../components/Dark_model';
+
 import { FiLink2, FiUser, FiCompass } from 'react-icons/fi';
 import './styles.css';
 
@@ -30,6 +31,7 @@ export default function Header() {
         <Nav>
           <Nav.Link target="_blank"><FiUser size={16} color="#00b7ff" /> {discordName} </Nav.Link>
           <Nav.Link target="_blank"><FiCompass size={16} color="#ecbb30" /> {incidents} </Nav.Link>
+          <Nav.Link><ButtonD /></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

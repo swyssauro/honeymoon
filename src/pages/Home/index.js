@@ -25,7 +25,7 @@ function Home() {
             <div className="container-fluid container-fafafa ">
                 <h1 className="text-center"><b>Cargos de</b> níveis</h1>
                 <p className="text-center text-desc">Os cargos do servidor foram criados tendo como base as fases lunares e os seus fenômenos na língua japonesa</p>
-                <br /> <br />
+                <br /><br />
                 <CardExampleGroupProps />
                 <br /><br />
             </div>

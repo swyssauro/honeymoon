@@ -1,0 +1,3 @@
+.btn-group-sm>.btn { font-size: 0.6rem;padding: 8px 27px;margin: 0px; }
+.btn-danger.dropdown-toggle { background-color: #ffc02ebf !important; }
+.dropdown-danger.show.basic.dropdown-menu { top: 6px !important; border: none; }
