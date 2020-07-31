@@ -25,6 +25,7 @@ export default function Header() {
         <Nav className="mr-auto">
           <Nav.Link href="/">home</Nav.Link>
           <Nav.Link href="/identificação"><b>honey</b>points</Nav.Link>
+          <Nav.Link href="/identificação"><b>suporte</b></Nav.Link>
           <Nav.Link target="_blank" href="https://github.com/swyssauro"><FiLink2 size={16} color="#00b7ff" /> my'<b>github</b> </Nav.Link>
           <Nav.Link target="_blank" href="https://discord.gg/yXqa85b"><FiLink2 size={16} color="#00b7ff" /> my'<b>server</b></Nav.Link>
         </Nav>
